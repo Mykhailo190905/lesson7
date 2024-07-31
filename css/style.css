@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .header, .section {
+    font-size: 0px;
+  }
+  
+  .header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 1200px; 
+    height: 53px; 
+    padding: 0 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+    
+  }
+  
+  .bar {
+    font-size: 16px;
+    padding: 5px;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  .first {
+    font-family: "Cera-Pro";
+    font-size: 32px;
+    color: #4CAF50;
+    font-weight: bold;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 54px; 
+    margin-right: 10px;
+  }
+  
+  .middle {
+    font-family: "Cera-Pro";
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  nav {
+    display: flex;
+    gap: 25px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+  }
+  
+  .last button {
+    background-color: #4CAF50; 
+    color: white;
+    border: none; 
+    padding: 8px 20px; 
+    font-size: 16px;
+    border-radius: 6px;
+    margin-left: 100;
+    
+  }
+  .button-image{
+    margin-right: 8px;
+  }
+  
+  
+  .left-side, .right-side {
+    display: inline-block;
+    font-size: 16px;
+    height: 100%;
+    vertical-align: top;
+    background: linear-gradient(97.77deg, rgba(245, 245, 245, 0.5) -23.46%, rgba(245, 245, 245, 0.5) 107.51%);
+  
+  }
+  
+  .right-side {
+    width: 500px;
+  
+  }
+  
+  .left-side {
+    width: calc(100% - 500px);
+    padding-right: 90px;
+  }
+  
+  .section {
+    height: 500px;
+    margin-left: 40px;
+    margin-top: 90px;
+  }
+  .shop{
+    font-family: "Cera-Pro";
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+  }
+  h5 {
+    font-family: "Cera-Pro";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  h1 {
+    font-family: "Cera-Pro";
+    font-weight: 900;
+    font-size: 48px;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  p {
+    font-family: "Cera-Pro";
+    font-size: 16px;
+    color: #666;
+    margin: 20px 0;
+  }
